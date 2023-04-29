@@ -86,7 +86,7 @@ for i in range(len(cislo_list)):
             if len(cols) >= 3 and cols[2].text.strip():  # check that there are at least 3 columns in the row
                 politicka_strana = cols[1].text.strip()
                 all_votes = cols[2].text.strip()
-                print(politicka_strana, all_votes)
+                #print(politicka_strana, all_votes)
     
     # Add the scraped data to the dictionary
     if i < len(url_list):
